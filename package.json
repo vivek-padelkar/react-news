@@ -1,0 +1,24 @@
+{
+  "name": "react-news",
+  "version": "1.0.0",
+  "description": "react application for news update",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/index",
+    "server": "nodemon backend/index"
+  },
+  "author": "vivek padellkar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "newsapi": "^2.4.1"
+  }
+}
