@@ -39,9 +39,9 @@ export const LoginWrapper = styled.div`
     font-weight: 600;
     margin-top: 10px;
     cursor: pointer;
-
+    transition: all 250ms ease-in;
     :hover {
-      background-color: #fff;
+      background-color: ${constantStyle.hoverBkgColor};
     }
   }
 
@@ -50,5 +50,9 @@ export const LoginWrapper = styled.div`
     color: ${constantStyle.btnColor};
     font-weight: 600;
     margin-top: 10px;
+    transition: all 250ms ease-in;
+    :hover {
+      color: #df7139;
+    }
   }
 `

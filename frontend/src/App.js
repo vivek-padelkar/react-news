@@ -1,9 +1,10 @@
 import Login from './component/login/login.component'
+import UserProfile from './component/userProfile/userProfile.component'
 
 function App() {
   return (
-    <div className="App">
-      <Login />
+    <div>
+      <UserProfile />
     </div>
   )
 }
